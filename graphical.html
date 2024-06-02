@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Variables of the Study</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="icon.jfif"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header class="sticky">
+        <a href="index.html" class="logo">BSA 4.2A<span>.</span></a>
+        <div class="menuToggle" onclick="toggleMenu();"></div>
+        <ul class="navigation">
+            <li><a href="index.html"><i class="fa fa-home"></i>Home</a></li>
+            <li><a href="index.html#about"><i class="fa fa-history"></i>About</a></li>
+            <li><a href="index.html#places1"><i class="fa fa-map"></i>Companies</a></li>
+            <li><a href="index.html#team"><i class="fa fa-users"></i>Team</a></li>
+            <li class="has-submenu"><a href="#"><i class="fa fa-info-circle"></i>Information</a>
+                <ul class="submenu">
+                    <li><a href="variables.html">VARIABLES OF THE STUDY</a></li>
+                    <li><a href="graphical.html">GRAPHICAL PRESENTATION</a></li>
+                    <li><a href="result.html">GENERAL RESULT AND ANALYSIS</a></li>
+                </ul>
+            </li>
+            <li><a href="index.html#contact"><i class="fa fa-address-book"></i>Contacts</a></li>
+        </ul>
+    </header>
+
+    <section class="content-section" id="graphical">
+        <h2>Graphical Presentation</h2>
+        <p>The researchers employed a line graph as a figure  to represent the outcome of the study and to enable them to visualize and express the data acquired in a comprehensible manner. </p>
+        <div class="graph-container">
+            <img src="Debt_ratio.png" alt="Debt Ratio Graph" class="graph-img">
+            <p class="graph-stats">MIN: .06600 MAX: 1.014 MEAN: .4369 STD. DEV: .3764</p>
+            <p class="graph-description">Figure 2 Showed that there was an increasing trend for the capital structure of the subject companies from 2019 to 2023. This indicated that the information technology companies obtained more and more liabilities as years passed by as the portion of the assets funded by creditors increases every year from 2019 to 2023.</p>
+        </div>
+        <div class="graph-container">
+            <img src="book_value.png" alt="Book Value Graph" class="graph-img">
+            <p class="graph-stats">MIN: 14.38 MAX: 23.85 MEAN: 18.31 STD. DEV: 3.34</p>
+            <p class="graph-description">As presented in Figure 3, the trend of the line graph showed that there was an increase from 2019 to 2020 in the book value of the intangible assets of the selected companies but the trend started to decrease from 2021 to 2023. This trend implied a good impression as it was an indication that the companies invested on intangible assets and amortized them accordingly.</p>
+        </div>
+        <div class="graph-container">
+            <img src="intangible_asset.png" alt="Intangible Asset Rate Graph" class="graph-img">
+            <p class="graph-stats">MIN: .0028 MAX: .8299 MEAN: 0.9687 STD. DEV: 1.40</p>
+            <p class="graph-description">As presented in Figure 4, it showed that from 2019 to 2023, there was a continuous decrease in IT business' intangible asset rate. This decrease indicates that these companies have reduced their investment in software, higher research and development, intellectual property, and other intangible assets in response to the economic crisis.</p>
+        </div>
+        <div class="graph-container">
+            <img src="asset_sample.png" alt="Intangible Asset Sample Graph" class="graph-img">
+            <p class="graph-stats">MIN: .0000 MAX: 1.33 MEAN: 0.7097 STD. DEV: 0.4580</p>
+            <p class="graph-description">Figure 5 demonstrates that there was an increase from 2019 to 2020 and a continuing decrease from 2021 to 2023. An increasing pattern between 2019 and 2020 indicated a period in which the IT firms in the sample allocated more funds and focused on intangible assets.</p>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
